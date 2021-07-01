@@ -2,10 +2,10 @@ const myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     const mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/firefox-icon.png') {
-      myImage.setAttribute ('src','images/honoo_hi_fire.png');
+    if(mySrc === 'firefox-icon.png') {
+      myImage.setAttribute ('src','honoo_hi_fire.png');
     } else {
-      myImage.setAttribute ('src','images/firefox-icon.png');
+      myImage.setAttribute ('src','firefox-icon.png');
     }
 }
 
